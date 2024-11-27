@@ -15,7 +15,6 @@
                     <h5 class="card-title">{{ candidat.Name }}</h5>
                     <p class="card-text">{{ candidat.Description }}</p>
                     <p class="card-text">Votes : {{ votes }}</p>
-                    <button @click="Voterpourcandidat(candidat.id)" class="btn btn-primary mb-3">Voter</button><br>
                     <button @click="deleteCandidat(candidat.id)" class="btn btn-danger">Supprimer</button>
                     </div>
                 </div>

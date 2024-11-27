@@ -18,9 +18,6 @@ import HelloWorld from './components/HelloWorld.vue'
                 <li  class="nav-item">
                   <RouterLink to="/candidat" class="nav-link">Candidats</RouterLink>
                 </li>
-                <li  class="nav-item">
-                  <RouterLink to="/"class="nav-link">Voter</RouterLink>
-                </li>
               </ul>
         </header>
       </div>
